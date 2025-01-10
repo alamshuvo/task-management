@@ -1,5 +1,6 @@
 import Logo from "@/assets/Logo";
 import { Link } from "react-router-dom";
+import { ModeToggle } from "../mode.toogle";
 
 
 const Navbar = () => {
@@ -11,6 +12,9 @@ const Navbar = () => {
             </div>
             <Link to={"/"}>Task</Link>
             <Link to={"/users"}>User</Link>
+            <div className="ml-auto">
+                <ModeToggle></ModeToggle>
+            </div>
         </nav>
     );
 };
