@@ -1,4 +1,5 @@
 import Logo from "@/assets/Logo";
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -8,6 +9,8 @@ const Navbar = () => {
             <Logo></Logo><span className="font-bold ml-2">Task</span>
                
             </div>
+            <Link to={"/"}>Task</Link>
+            <Link to={"/users"}>User</Link>
         </nav>
     );
 };
