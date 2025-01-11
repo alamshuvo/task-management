@@ -7,3 +7,7 @@ export interface ITask  {
     priority: "All"|"High"|"Medium"|"Low"
   }
   
+export interface IUser {
+  id:string,
+  name:string
+}

@@ -73,7 +73,7 @@ export const selectTasks = (state:RootState)=>{
     else{
         return state.tasks.task
     }
-    return state.tasks.task
+   
 }
 export const selectFilter = (state:RootState)=>{return state.tasks.filter}
 export const {addTask,toogleCompleteState,deleteTask,updateFilter} = taskSlice.actions
